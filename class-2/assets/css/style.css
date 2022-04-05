@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.landing-page__first-part {
+  background: url(../image/mountains-1112911_1920.jpg);
+  height: 80vh;
+  min-height: 50vh;
+  background-size: 100% 100%;
+}
+.landing-page__first-part-inner {
+  width: 50%;
+  padding-top: 20%;
+}
+.landing-page__first-part__title {
+  font-size: 3rem;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 2rem;
+  padding-bottom: 0;
+  float: left;
+}
+.landing-page__first-part__paragraph {
+  color: aliceblue;
+  text-align: justify;
+  padding: 2rem;
+  float: left;
+  padding-bottom: 0;
+}
+.landing-page__first-part__button {
+  float: left;
+  margin: 2rem;
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #dddddd;
+}
+.landing-page__first-part__button:hover {
+  background-color: black;
+  color: #dddddd;
+  border: 1px solid white;
+  transition: 0.2s;
+}
+.landing-page__second-part {
+  /* height: 100vh; */
+  background-color: cadetblue;
+  padding: 5rem;
+}
+.landing-page__second-part-inner-one,
+.landing-page__second-part-inner-two {
+  display: inline-block;
+  padding: 2rem;
+  max-width: 45%;
+  height: 40vh;
+  border-radius: 5px;
+  background-color: rgb(134, 169, 199);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* min-width: 40%; */
+}
+.landing-page__second-part-inner-two {
+  float: right;
+}
+.landing-page__second-part-inner-one h2,
+.landing-page__second-part-inner-two h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.landing-page__second-part-inner-one p {
+  line-height: 30px;
+}
+.landing-page__second-part-inner-two ul li {
+  line-height: 30px;
+}
+table {
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+tr {
+  height: 2rem;
+}
+td {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: rgb(134, 169, 199);
+}
+
+marquee {
+  background-color: #dddddd;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.video {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
