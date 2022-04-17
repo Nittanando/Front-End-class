@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav__container">
+      <!-- first child -->
+
+      <span class="logo__container">Logo</span>
+
+      <!-- second child -->
+
+      <div id="toggle">
+        <ul class="mobile">
+          <li class="mobile__list">Home</li>
+          <li class="mobile__list">About</li>
+          <li class="mobile__list">Projects</li>
+          <li class="mobile__list">Services</li>
+          <li class="mobile__list">Contact</li>
+        </ul>
+      </div>
+      <span onclick="myFunction()" class="mobile__menu">Menu</span>
+    </nav>
+    <script>
+      function myFunction() {
+        var x = document.querySelector("#toggle");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
